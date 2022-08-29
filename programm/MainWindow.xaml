@@ -8,16 +8,24 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.Resources>
-            <Local:StringConverter x:Key="StringConverter"
+            <local:StringConverter x:Key="StringConverter"/>
         </Grid.Resources>
         <Label Content="Name: " HorizontalAlignment="Left" Margin="121,110,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="217,114,0,0" TextWrapping="Wrap" Text="{Binding Path=Name, Converter={StaticResource StringCovnerter}}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameInput" HorizontalAlignment="Left" Margin="217,114,0,0" TextWrapping="Wrap" Text="{Binding Path=Name, Converter={StaticResource StringConverter}}" VerticalAlignment="Top" Width="120"/>
 
         <Label Content="Eintrittsdatum: " HorizontalAlignment="Left" Margin="121,159,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="EintrittsdatumInput" HorizontalAlignment="Left" Margin="217,163,0,0" SelectedDate="{Binding Path=Eintrittsdatum}" VerticalAlignment="Top" Width="120"/>
 
         <Label Content="Vorname: " HorizontalAlignment="Left" Margin="376,106,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="VornameInput" HorizontalAlignment="Left" Margin="452,114,0,0" TextWrapping="Wrap" Text="{Binding  Path=Vorname}" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="VornameInput" HorizontalAlignment="Left" Margin="452,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <TextBox.Text>
+                <Binding Path="Vorname" NotifyOnValidationError="True">
+                    <Binding.ValidationRules >
+                        <local:StringRule />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
 
         <Label Content="personalnummer:" HorizontalAlignment="Center" Margin="0,159,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="PersonalnummerInput" HorizontalAlignment="Left" Margin="452,163,0,0" TextWrapping="Wrap" Text="{Binding Path=Personalnummer}" VerticalAlignment="Top" Width="120"/>

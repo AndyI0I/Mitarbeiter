@@ -11,19 +11,19 @@ namespace programm
 
 
         private string name;
-        private string vornname;
+        private string vorname;
         private DateTime eintrittsdatum;
         private int personalnummer;
 
         public Mitarbeiter()
         {
             this.name = "muster";
-            this.vornname = "max";
+            this.vorname = "max";
             this.eintrittsdatum = DateTime.Today;
         }
 
         public string Name { get => name; set => name = value; }
-        public string Vornname { get => vornname; set => vornname = value; }
+        public string Vorname { get => vorname; set => vorname = value; }
         public DateTime Eintrittsdatum { get => eintrittsdatum; set => eintrittsdatum = value; }
         public int Personalnummer { get => personalnummer; set => personalnummer = value; }
     }

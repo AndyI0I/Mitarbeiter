@@ -23,17 +23,20 @@ namespace programm
     {
 
         public Mitarbeiter MitarbeiterData { get; set; }    
+        
         public MainWindow()
         {
             InitializeComponent();
             this.MitarbeiterData = new Mitarbeiter();
             this.DataContext = this.MitarbeiterData;
+            
+
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             Debug.WriteLine(MitarbeiterData.Name);
-            Debug.WriteLine(MitarbeiterData.Vornname);
+            Debug.WriteLine(MitarbeiterData.Vorname);
 
         }
     }

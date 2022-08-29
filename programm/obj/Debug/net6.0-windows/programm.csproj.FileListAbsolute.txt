@@ -19,3 +19,4 @@ C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\refint\p
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\programm.pdb
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\programm.genruntimeconfig.cache
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\ref\programm.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
