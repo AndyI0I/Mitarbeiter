@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
 
 namespace programm
 {
@@ -37,7 +39,8 @@ namespace programm
         {
             Debug.WriteLine(MitarbeiterData.Name);
             Debug.WriteLine(MitarbeiterData.Vorname);
-
+            DB db = new DB();
+            db.select();
         }
     }
 }

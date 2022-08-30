@@ -20,3 +20,10 @@ C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\programm
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\programm.genruntimeconfig.cache
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\ref\programm.dll
 C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\csharp\mitarbeiter_wpf\Mitarbeiter\programm\obj\Debug\net6.0-windows\programm.csproj.CopyComplete
